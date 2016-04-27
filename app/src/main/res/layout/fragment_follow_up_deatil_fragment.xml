@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_followup_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_port">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/spinner"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/track_details_list_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:alpha="0.8"
+            android:background="@color/spinner"
+            android:descendantFocusability="beforeDescendants"
+            android:layout_alignBottom="@+id/progressBar" />
+
+
+
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@xml/progress" />
+
+    <LinearLayout
+        android:paddingTop="25.0dip"
+        android:id="@+id/btnlayout"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:background="@color/spinner"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_background"
+            android:text="New"
+            android:textColor="@android:color/white" />
+
+        <Button
+
+            android:id="@+id/btnfollowUp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_background"
+            android:text="History"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/tRetryLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:alpha="0.8"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tOpsMessageTextView"
+            style="@style/TextAppearance.AppCompat.Small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fetch_error"
+            android:visibility="visible" />
+
+        <TextView
+            android:id="@+id/tRetryTextView"
+            style="what_label"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:padding="10dp"
+            android:textColor="@android:color/holo_blue_light"
+            android:visibility="visible" />
+    </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

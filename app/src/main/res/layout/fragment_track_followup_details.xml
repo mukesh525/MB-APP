@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_track_details_folloup_followup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_port">
+
+
+    <ListView
+        android:id="@+id/track_details_followup_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        android:indeterminateDrawable="@xml/progress" />
+
+    <LinearLayout
+        android:id="@+id/tRetryLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/track_details_followup_list_view"
+        android:background="@color/spinner"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:visibility="visible">
+
+
+        <Button
+
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/trackDetailProgressBar"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/trackDetailProgressBar"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_background"
+            android:text="Submit"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

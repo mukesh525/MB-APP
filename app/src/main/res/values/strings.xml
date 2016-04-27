@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">MCube</string>
+
+    <string name="hello_world">Welcome to Mcube APP</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="update">Update</string>
+    <string name="google_app_id">305656196217</string>
+    <string name="followup">Add Followup</string>
+    <string name="Listfollowup">List Followup</string>
+    <string name="call">Call</string>
+    <string name="sms">Sms</string>
+    <string name="email">Email</string>
+    <string name="signout">SignOut</string>
+    <string name="neww">New</string>
+    <string name="history">History</string>
+
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+    <string name="text_dismiss">DISMISS</string>
+    <string name="title_activity_home">MCube</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+    <string name="Home">Home</string>
+    <string name="Lead">Lead</string>
+    <string name="FollowUp">FollowUp</string>
+    <string name="Ivrs">Ivrs</string>
+    <string name="Settings">Settings</string>
+    <string name="Track">Track</string>
+    <string name="X">MCubeX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Logout">Logout</string>
+    <string name="text_tryAgain">TRY AGAIN</string>
+    <string name="title_activity_follow_up_detail">FollowUpDetail</string>
+    <string name="title_activity_track_deatil">TrackDeatil</string>
+    <string name="title_activity_xdetail">XDetail</string>
+    <string name="title_activity_lead_detail">LeadDetail</string>
+    <string name="mtracker">MTracker</string>
+</resources>
